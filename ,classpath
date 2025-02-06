@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="slf4j-api-2.0.13.jar"/>
+	<classpathentry kind="con" path="slf4j-simple-2.0.13.jar"/>
+</classpath>
