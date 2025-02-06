@@ -14,7 +14,7 @@ Anybody using mule-smb-connector that is using SMB 2.1 shares will not be able t
 com.hierynomus.mssmb2.SMBApiException: STATUS_ACCESS_DENIED (0xc0000022): Could not connect to \\host\share
 ```
 
-In order to upgrade our Mulesoft projects to use Java 17, we are required to use mule-smb-connector 4.0.0. The breaking change means we are not able to upgrade our projects unless we use custom code or build our own connector. While I have already built an SMB Connector that can replace yours, I would prefer to use a Mulesoft approved vendor supported connector.
+In order to upgrade our Mulesoft projects to use Java 17, we are required to use mule-smb-connector 4.0.0. The breaking change means we are not able to upgrade our projects unless we use custom code or build our own connector. While I have already built an SMB Connector that can replace mule-smb-connector, I would prefer to use a Mulesoft approved vendor supported connector.
 
 ### Solution
 
